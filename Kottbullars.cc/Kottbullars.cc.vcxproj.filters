@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Fichiers sources">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Fichiers de ressources">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Fichiers sources\Hacks">
+      <UniqueIdentifier>{057b137f-4314-4798-8f2c-481f297e5fa0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Kiero">
+      <UniqueIdentifier>{f511a6dc-19b2-4c26-b85d-9fff234f3449}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Wallhack.cpp">
+      <Filter>Fichiers sources\Hacks</Filter>
+    </ClCompile>
+    <ClCompile Include="Misc.cpp">
+      <Filter>Fichiers sources\Hacks</Filter>
+    </ClCompile>
+    <ClCompile Include="kiero.cpp">
+      <Filter>Fichiers sources\Kiero</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Wallhack.h">
+      <Filter>Fichiers sources\Hacks</Filter>
+    </ClInclude>
+    <ClInclude Include="Misc.h">
+      <Filter>Fichiers sources\Hacks</Filter>
+    </ClInclude>
+    <ClInclude Include="kiero.h">
+      <Filter>Fichiers sources\Kiero</Filter>
+    </ClInclude>
+    <ClInclude Include="MinHook.h">
+      <Filter>Fichiers sources\Kiero</Filter>
+    </ClInclude>
+    <ClInclude Include="includes.h">
+      <Filter>Fichiers sources</Filter>
+    </ClInclude>
+    <ClInclude Include="Vars.h">
+      <Filter>Fichiers sources</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="MinHook.x64.lib">
+      <Filter>Fichiers sources\Kiero</Filter>
+    </Library>
+    <Library Include="MinHook.x86.lib">
+      <Filter>Fichiers sources\Kiero</Filter>
+    </Library>
+  </ItemGroup>
+</Project>
